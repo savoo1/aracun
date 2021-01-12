@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: ToucheLight;
-  src: url("../fonts/Touche/ToucheLight.otf"); }
+  src: url("../fonts/Touche/touche-webfont.woff"); }
 
 a {
   text-decoration: none;
@@ -44,15 +44,13 @@ body {
   padding-right: 15px;
   min-width: 227px;
   margin-right: 18px;
-  border: 1px solid #FF2626;
+  border: 1.5px solid #FF2626;
   text-align: center;
   border-radius: 3px; }
 
 .btns a:hover {
   background: #FF2626;
-  text-decoration: none;
-  -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.32);
-  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.32); }
+  text-decoration: none; }
 
 .topline {
   width: 100%;
@@ -542,7 +540,7 @@ body {
     background: #6D6F74; }
   .home_s2 h1 {
     font-family: ToucheSemibold;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 32px;
     line-height: 46px;
     letter-spacing: 0px;
@@ -679,9 +677,11 @@ body {
             margin-top: 30px; }
             .home_s3 .w_box .box .area .pricearea .btns a {
               color: #01112A;
-              margin: 0; }
+              margin: 0;
+              border-color: #A90607; }
             .home_s3 .w_box .box .area .pricearea .btns a:hover {
-              color: #fff; }
+              color: #fff;
+              background: #A90607; }
     .home_s3 .w_box .box:nth-child(2) {
       position: relative;
       z-index: 2;
@@ -808,7 +808,8 @@ body {
         font-weight: 300;
         font-size: 32px;
         line-height: 60px;
-        padding-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         width: 70px;
         text-align: center;
         letter-spacing: 0.16px;

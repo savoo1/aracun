@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: ToucheLight;
-  src: url("../fonts/Touche/ToucheLight.otf");
+  src: url("../fonts/Touche/touche-webfont.woff");
 }
 // fonts end
 
@@ -54,15 +54,15 @@ body{
 		padding-right: 15px;
 		min-width: 227px;
 		margin-right: 18px;
-		border: 1px solid #FF2626;
+		border: 1.5px solid #FF2626;
 		text-align: center;
 		border-radius: 3px;
 	}
 	a:hover{
 		background: #FF2626;
 		text-decoration: none;
-		-webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.32); 
-		box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.32);
+		// -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.32); 
+		// box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.32);
 	}
 }
 // components end
@@ -703,7 +703,7 @@ body{
 
 	h1{
 		font-family: ToucheSemibold;
-		font-weight: 600;
+		font-weight: 700;
 		font-size: 32px;
 		line-height: 46px;
 		letter-spacing: 0px;
@@ -867,9 +867,11 @@ body{
 						a{
 							color: #01112A;
 							margin: 0;
+							border-color: #A90607;
 						}
 						a:hover{
 							color: #fff;
+							background: #A90607;
 						}
 					}
 				}
@@ -1034,7 +1036,8 @@ body{
 				font-weight: 300;
 				font-size: 32px;
 				line-height: 60px;
-				padding-top: 10px;
+				padding-top: 5px;
+				padding-bottom: 5px;
 				width: 70px;
 				text-align: center;
 				letter-spacing: 0.16px;
