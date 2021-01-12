@@ -83,11 +83,13 @@ body {
   background: transparent;
   min-height: 100px;
   border-bottom: 1px solid #B8C0CC;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 0px;
+  padding-right: 0px; }
   .navbar .container {
     position: relative;
-    max-width: 1700px; }
+    max-width: 1700px;
+    padding-left: 10px;
+    padding-right: 10px; }
   .navbar .navbar-brand {
     display: block; }
   .navbar .logo_black {
