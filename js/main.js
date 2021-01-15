@@ -23,3 +23,9 @@ $( ".home_s3 .w_box .box .area .bodyarea .procitajvise" ).click(function(e) {
 	    $(this).html("PROČITAJTE JOŠ <img src='img/down-arrow-of-angle.svg' >");
     }
 });
+
+
+$( ".kontakt_s2 .form .plfordiv" ).click(function(e) {
+    e.preventDefault();
+    $(this).addClass("activated");
+});

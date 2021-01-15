@@ -30,6 +30,25 @@
 	.home_hero {
 	    min-height: 670px;
 	}
+	.kontakt_s1{
+		min-height: auto;
+		padding-bottom: 170px;
+	}
+	.kontakt_s1 .placeforimg .cijenapaketa_img1 {
+	    max-width: 420px;
+	    position: absolute;
+	    bottom: -30px;
+	    right: 15px;
+	}
+	.cijenapaket_s1{
+		min-height: 510px;
+		padding-bottom: 160px;
+	}
+	.ofiskalizaciji .boxes .ofiskalizaciji_img{
+		top: -310px;
+		right: 0;
+		max-width: 350px;
+	}
 }
 @media(max-width: 1300px){
 	.navbar .navbar-nav li{
@@ -39,9 +58,40 @@
 	.navbar .navbar-nav .prijava{
 		right: 177px;
 	}
+	.cijenapaket_s2 .tab-content > .tab-pane{
+		padding: 30px 40px;
+	}
+	.cijenapaket_s2 .tab-content > .tab-pane .boxes .box h3 span{
+		font-size: 36px;
+	}
+	.cijenapaket_s2 .tab-content > .tab-pane .boxes .box h3 span .sm {
+	    font-size: 26px;
+	}
 }
 
 @media(max-width: 1200px){
+	.kontakt_s2 .rightside ul li{
+		font-size: 16px;
+	}
+	.kontakt_s2 .rightside ul li span{
+		width: 75px;
+	}
+	.kontakt_s2 .rightside {
+	    padding-left: 10px;
+	    padding-top: 30px;
+	}
+	.ofiskalizaciji .boxes{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.ofiskalizaciji .boxes h1{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.ofiskalizaciji .boxes .box {
+	    padding-left: 90px;
+	    padding-right: 90px;
+	}
 	.home_s3 .w_box .box{
 		max-width: 300px;
 	}
@@ -63,8 +113,86 @@
 	.home_hero .box .home_img1 {
 	    max-width: 400px;
 	}
+	.cijenapaket_s1 .placeforimg .cijenapaketa_img1 {
+	    max-width: 390px;
+	}
 }
 @media(max-width: 991px){
+	.kontakt_s2 .form{
+		margin-top: -70px;
+	}
+	.kontakt_s1 .placeforimg{
+		display: none;
+	}
+	.kontakt_s2 .wrapper{
+		max-width: 370px;
+	}
+	.kontakt_s2 .form {
+	    padding: 30px 20px;
+	}
+	.kontakt_s2 .form .plfordiv {
+	    margin-bottom: 30px;
+	}
+	.kontakt_s2 .form button{
+		margin-top: 30px;
+	}
+	.kontakt_s2 .form .plfordiv p{
+		font-size: 14px;
+	}
+	.kontakt_s2 .form input, .kontakt_s2 .form textarea{
+		font-size: 14px;
+	}
+	.cijenapaket_s2 .tab-content > .tab-pane .boxes .box{
+		margin: auto;
+		margin-top: 15px;
+	}
+	.cijenapaket_s2 .tab-content > .tab-pane .boxes {
+	    display: block;
+	}
+	.home_hero {
+	    min-height: unset;
+	    padding-bottom: 120px;
+	}
+	.cijenapaket_s2 .tab-content > .tab-pane{
+		padding: 15px;
+	}
+	.cijenapaket_s2 .tab-content > .tab-pane h2{
+		font-size: 17px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	.cijenapaket_s2 .tab-content > .tab-pane p{
+		font-size: 14px;
+		line-height: 23px;
+		margin-bottom: 20px;
+	}
+	.cijenapaket_s2 .wrapper {
+	    max-width: 370px;
+	    margin: auto;
+	}
+	.cijenapaket_s2 .nav-tabs .nav-link{
+		width: 135px;
+		margin: auto;
+		font-size: 13px;
+		letter-spacing: 0.2px;
+		line-height: 60px;
+	}
+	.cijenapaket_s2 .nav-tabs {
+	    margin-top: -60px;
+	    max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+	.cijenapaket_s2 .nav-tabs .nav-item.show .nav-link, .cijenapaket_s2 .nav-tabs .nav-link.active{
+		line-height: 68px;
+		margin-top: -8px;
+	}
+	.nav-tabs .nav-item{
+		margin: auto;
+	}
+	.cijenapaket_s1 .placeforimg .cijenapaketa_img1 {
+		display: none;
+	}
 	.topline .container, .navbar .container{
 		max-width: 700px;
 	}
@@ -177,9 +305,14 @@
 	.home_hero .placeformouse{
 		display: none;
 	}
-	.home_s4 h1, .home_s2 h1{
+	.cijenapaket_s3 h1, .home_s4 h1, .home_s2 h1{
 		font-size: 22px;
 		line-height: 37px;
+	}
+	.cijenapaket_s3{
+		padding-top: 100px;
+		padding-bottom: 50px;
+		min-height: auto;
 	}
 	.home_s3 .w_box .box {
 	    max-width: 320px;
@@ -255,11 +388,85 @@
 	.footer .lastrow{
 		margin-top: 40px;
 	}
+	.cijenapaket_s1 {
+	    padding-bottom: 340px;
+	}
+	.ofiskalizaciji .boxes .ofiskalizaciji_img {
+	    top: -250px;
+	    right: 0;
+	    max-width: 270px;
+	    margin: auto;
+	    left: 0;
+	}
+	.ofiskalizaciji .boxes{
+		padding-top: 100px;
+	}
+	.ofiskalizaciji .boxes h1 {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    text-align: center;
+	    font-size: 22px;
+	    line-height: 37px;
+	    margin-bottom: 30px;
+	}
+	.ofiskalizaciji .boxes{
+		max-width: 370px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ofiskalizaciji .boxes .box{
+		padding: 15px;
+	}
+	.ofiskalizaciji .boxes .box h2 span{
+		position: relative;
+		display: block;
+		text-align: center;
+		left: unset;
+		right: unset;
+	}
+	.ofiskalizaciji .boxes .box h2{
+		text-align: center;
+		padding-bottom: 10px;
+
+	}
+	.ofiskalizaciji .boxes .steps h1{
+		font-size: 17px;
+		line-height: 28px;
+	}
+	.ofiskalizaciji .boxes .box p{
+		text-align: center;
+	}
+	.ofiskalizaciji .boxes .steps .box_s{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ofiskalizaciji .boxes .steps .box_s p{
+		padding: 40px 20px 20px;
+		text-align: center;
+	}
+	.ofiskalizaciji .boxes .steps .box_s:last-child{
+		margin: 0;
+	}
+	.ofiskalizaciji .boxes .box .wwimg{
+		padding: 0;
+		img{
+			position: relative;
+			max-width: 100%;
+			margin-top: 10px;
+		}
+	}
+	.ofiskalizaciji .boxes .steps{
+		padding-top: 50px;
+	}
 }
 
 
 
 @media(max-width: 730px){
+	.ofiskalizaciji .boxes .box p, .ofiskalizaciji .boxes .steps .box_s p{
+		font-size: 14px;
+		line-height: 24px;
+	}
 	.logofooter{
 		img{
 			display: block;
